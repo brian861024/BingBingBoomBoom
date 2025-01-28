@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+/*  bootstrap 5  */
+@import url(./css/bootstrap.min.css);
+
+.homeSection {
+    display: flex;
+    
+}
+
+/* 導覽列樣式 */
+.nav-link:hover {
+    font-weight: bold; /* 滑鼠懸停時的字體加粗 */
+    text-shadow: 1px 1px 2px white; /* 添加白色文字陰影 */
+}
+
+/* 頁尾樣式 */
+.footer {
+    background-color: aqua;
+    height: 20px;
+}

@@ -27,7 +27,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
