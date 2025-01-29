@@ -1,17 +1,25 @@
-<!-- <div class="homeSection"> -->
+<!-- Navbar -->
+<app-navbar></app-navbar>
+
+<div class="homeSection d-flex">
+
     <!-- 側邊導覽列 -->
     <div class="sidebarArea">
         <app-sidebar></app-sidebar>
     </div>
+
     <!-- 右邊主內容 -->
-    <div class="home">
-        <!-- Navbar -->
-        <app-navbar></app-navbar>
+    <div class="home bg-danger flex-grow-1 d-flex flex-column">
         <!-- 廣告區 -->
+         <div class="adArea p-5 ">
+            <app-ad></app-ad>
+         </div>
+        
         <!-- 商品展示區 -->
+        <app-product-display></app-product-display>
     </div>
-<!-- </div> -->
 
+</div>
 
-
+<!-- 頁尾 -->
 <app-footer></app-footer>

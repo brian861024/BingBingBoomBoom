@@ -1,11 +1,6 @@
 /*  bootstrap 5  */
 @import url(./css/bootstrap.min.css);
 
-.homeSection {
-    display: flex;
-    
-}
-
 /* 導覽列樣式 */
 .nav-link:hover {
     font-weight: bold; /* 滑鼠懸停時的字體加粗 */
