@@ -1,0 +1,10 @@
+html, body {
+  height: 100vh;  /* 讓整個畫面充滿視口 */
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+main {
+  flex-grow: 1;  /* 讓內容區域填滿 navbar 和 footer 之間的空間 */
+}
