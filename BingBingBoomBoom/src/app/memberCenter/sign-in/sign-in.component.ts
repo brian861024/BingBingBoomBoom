@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class SignInComponent {
 
+  title="會員登入";
+username='';
+password='';
+count=0;
+  confirm(para:any){
+
+    if(this.username&&this.password===null){
+this.username='666';
+    };
+
+
+  }
 }

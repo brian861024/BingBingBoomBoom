@@ -13,6 +13,7 @@ import { AdComponent } from './layout/ad/ad.component';
 import { ProductDisplayComponent } from './product/product-display/product-display.component';
 import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 import { ProductRowComponent } from './product/product-row/product-row.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ProductRowComponent } from './product/product-row/product-row.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
