@@ -61,7 +61,7 @@ confirm(para: MouseEvent) {
 showError() {
   // 檢查帳號是否為空
   this.noUsername = this.user.account.trim() === "";
-
+console.log(this.noUsername);
   // 檢查密碼是否為空
   this.noPassword = this.user.password.trim() === "";
 }
